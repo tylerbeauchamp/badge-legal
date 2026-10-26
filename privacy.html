@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Badge Privacy Policy</title>
+<style>
+:root { color-scheme: light dark; --ink:#1A1A1A; --muted:#6B6B6B; --line:#E4E4E4; --bg:#F4F4F4; --card:#FFFFFF; }
+@media (prefers-color-scheme: dark) { :root { --ink:#F2F2F2; --muted:#A0A0A0; --line:#2C2C2E; --bg:#000; --card:#1C1C1E; } }
+body { margin:0; background:var(--bg); color:var(--ink); font: 17px/1.55 ui-rounded, -apple-system, system-ui, sans-serif; }
+main { max-width: 720px; margin: 0 auto; padding: 40px 20px 64px; }
+h1 { font-size: 32px; font-weight: 900; letter-spacing: -0.02em; margin: 0 0 4px; }
+h2 { font-size: 21px; margin: 36px 0 8px; } h3 { font-size: 18px; margin: 24px 0 6px; }
+p, li { color: var(--ink); } em { color: var(--muted); font-style: normal; }
+a { color: inherit; }
+table { width:100%; border-collapse: collapse; background: var(--card); border-radius: 14px; overflow: hidden; font-size: 15px; display:block; overflow-x:auto; }
+th, td { text-align:left; vertical-align: top; padding: 10px 12px; border-bottom: 1px solid var(--line); }
+th { color: var(--muted); font-weight: 600; }
+nav { margin-bottom: 28px; font-weight: 700; } nav a { margin-right: 16px; text-decoration: none; }
+</style></head>
+<body><main><nav><a href="./privacy.html">Privacy</a><a href="./terms.html">Terms</a></nav>
+<h1>Badge Privacy Policy</h1>
+<p><em>Last updated: October 25, 2026</em></p>
+<p>Badge ("we", "us") lets you send a single emoji or a short message to friends, and it shows up on their home screen. This policy explains what we collect, why, and the choices you have. It's short because we collect very little.</p>
+<h2>What we collect</h2>
+<table><thead><tr><th>Data</th><th>Why</th><th>Where it lives</th></tr></thead><tbody><tr><td><strong>Phone number</strong></td><td>To sign you in with a one-time code.</td><td>Firebase Authentication (Google).</td></tr><tr><td><strong>A one-way hash of your phone number</strong></td><td>So friends who have your number in their contacts can find you, without your number ever being stored in readable form in our database.</td><td>Our database (Cloud Firestore).</td></tr><tr><td><strong>First and last name</strong></td><td>So friends can see who sent a badge.</td><td>Our database.</td></tr><tr><td><strong>Profile photo</strong> (optional)</td><td>Shown to your friends next to your badges.</td><td>Our database.</td></tr><tr><td><strong>Badges you send</strong> (the emoji or text, who it went to, when)</td><td>To deliver them to the people you chose.</td><td>Our database.</td></tr><tr><td><strong>Friends, friend requests, groups, blocks and reports</strong></td><td>To run the social features and keep people safe.</td><td>Our database.</td></tr><tr><td><strong>Push notification token and your notification setting</strong></td><td>To notify you when a friend sends you a badge, if you've turned that on.</td><td>Our database, readable only by you and our servers.</td></tr></tbody></table>
+<h3>Your contacts</h3>
+<p>If you allow access to contacts, Badge reads the phone numbers on your device, converts each one to a one-way hash <strong>on your phone</strong>, and uses those hashes only to look up which of your contacts already use Badge. We <strong>do not upload or store your address book</strong>, contact names, or readable phone numbers. Contact photos may be shown on your own device for friends who haven't added a photo; they never leave your device.</p>
+<h2>What we don't do</h2>
+<ul><li>We don't sell your data or share it with advertisers.</li><li>We don't show ads.</li><li>We don't track you across other apps or websites.</li><li>We don't read your messages for marketing. Badges are only visible to you and the people you send them to, plus our team when reviewing a report.</li></ul>
+<h2>Who processes your data</h2>
+<p>Badge runs on <strong>Google Firebase</strong> (Authentication, Cloud Firestore, Cloud Functions and Cloud Messaging), which stores and processes data on our behalf under Google's terms. Push notifications are delivered through <strong>Apple Push Notification service</strong>.</p>
+<h2>How long we keep it</h2>
+<p>We keep your account data for as long as you have an account. If you report someone, we keep the report as long as we need it to review it and protect our users.</p>
+<h2>Your choices</h2>
+<ul><li><strong>Delete your account</strong> at any time in the app: <strong>… → Settings → Delete account</strong>. This deletes your profile, photo, friendships, groups and the badges you sent, and signs you out. Some data may remain in backups for up to 30 days.</li><li><strong>Turn notifications off</strong> in <strong>Settings</strong>, or in iOS Settings.</li><li><strong>Revoke contacts access</strong> in iOS Settings at any time.</li><li><strong>Block or report</strong> anyone by long-pressing their badge.</li></ul>
+<p>Depending on where you live, you may have rights to access, correct, export or delete your data. Contact us and we'll help.</p>
+<h2>Children</h2>
+<p>Badge is not intended for anyone under 13, and we don't knowingly collect data from children under 13. If you believe a child has created an account, contact us and we'll delete it.</p>
+<h2>Changes</h2>
+<p>If we make meaningful changes to this policy, we'll update the date above and let you know in the app.</p>
+<h2>Contact</h2>
+<p>Questions or requests: <strong><a href="mailto:badge.app.help@gmail.com">badge.app.help@gmail.com</a></strong></p>
+</main></body></html>
